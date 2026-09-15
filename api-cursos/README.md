@@ -38,7 +38,7 @@ O Front-end (cliente) faz a requisição dos dados por meio dos
 | ----------- | ------------ | ------------- | ------------------------------- |
 | GET         | /cursos      | listar()      | 200 OK                          |
 | GET         | /cursos/{id} | buscarPorId() | 200 OK ou 404 Not Found         |
-| POST        | /cursos      | salvar()      | 201 Created                     |
+| POST        | /cursos      | cadastrar()   | 201 Created                     |
 | PUT         | /cursos/{id} | atualizar()   | 200 OK ou 404 Not Found         |
 | DELETE      | /cursos/{id} | remover()     | 204 No Content ou 404 Not Found |
 

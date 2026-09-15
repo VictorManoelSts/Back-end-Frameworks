@@ -1,4 +1,4 @@
-﻿package br.edu.nassau.api_cursos.model;
+package br.edu.nassau.api_cursos.model;
 
 public class Curso {
     private Long id;
