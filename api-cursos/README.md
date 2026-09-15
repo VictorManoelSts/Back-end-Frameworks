@@ -60,3 +60,23 @@ src/main/java - Onde fica todo o código da Aplicação
 src/main/resources - Configurações do projeto
 
 classe com @SpringBootApplication - Indica a classe principal da aplicação
+
+
+
+## Execução do projeto
+
+#### Subir container do PostgreSQL
+
+```
+docker compose up -d
+```
+
+#### Acessar o Banco diretamente (Opcional)
+
+``` 
+docker exec -it postgres-api-cursos psql -U victor -d cursos_db
+```
+
+#### Executar o projeto no Intellij
+
+#### Acessar pelo postman para testes
